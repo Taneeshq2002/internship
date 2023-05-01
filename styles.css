@@ -1,0 +1,132 @@
+.navigation {
+    position: fixed;
+}
+
+.first {
+    margin-left: 30%;
+}
+
+.carousel {
+
+    margin-top: 100px;
+}
+
+.carousel-item {
+    margin-top: 10px;
+}
+
+.logo {
+
+    margin-top: 100px;
+    margin-left: 35%;
+    height: 50px;
+}
+
+.nav-logo {
+    margin-right: 10px;
+    position: relative;
+}
+
+.about-us {
+    margin-top: 80px;
+}
+
+.slogan {
+    margin-top: 170px;
+}
+
+hr {
+    background-color: black;
+    height: 50px;
+}
+
+.about-logo {
+    position: absolute;
+    margin-top: 3%;
+    margin-left: 37%;
+    opacity: 0.3;
+    height:300px;
+}
+
+.vision {
+    margin-top: 6%;
+}
+
+.footer {
+    margin-top: 50px;
+    height: 350px;
+}
+
+.donate {
+    position: relative;
+    left: 780px;
+    width: 180px;
+
+    font-family: 'Rampart One', cursive;
+    background-color: rgb(221, 221, 154);
+    animation: donation-shadow 2s infinite;
+}
+
+
+@keyframes donation-shadow {
+    50% {
+        box-shadow: 10px 20px 30px rgb(0, 0, 0);
+    }
+}
+
+.nav-link {
+    margin-left: 20px;
+    font-weight: bolder;
+    font-size: larger;
+}
+.card:hover{
+    animation:cardanim 3s  ;
+    animation-direction:alternate;
+}
+@keyframes cardanim{
+    from{
+        transform:scale(1);
+    }
+    to{
+        transform: scale(1.1);
+    transition-timing-function: ease-in-out;
+    box-shadow: 30px 30px 30px rgb(0, 0, 0);
+    }
+}
+.qrcode{
+    margin-left:34%;
+    margin-top:100px;
+    height:800px;
+    width:500px;
+   
+}
+.qrimg{
+    height:800px;
+    width:500px;
+    margin-top:-10px;
+}
+.donateinfo{
+   animation:infoanim 2s infinite;
+    animation-direction: alternate;
+}
+@keyframes infoanim{
+    from{
+        transform:scale(1);
+    }
+    to{
+        transform:scale(1.2);
+    }
+}
+.emailbtn{
+    margin-top:20px;
+    margin-left:38%;
+}
+.done{
+    margin-top:80px;
+    padding-left:34%;
+    margin-bottom:50px;
+}
+.achieve{
+    display:inline-block;
+}
+
